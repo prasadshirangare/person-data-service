@@ -1,0 +1,7 @@
+insert into PERSON(PERSON_ID, NAME, AGE, CONTACT_NO, ADDRESS, PINCODE)
+values (10001, 'Rohit', 32, '91982012345', 'Mumbai', '400001');
+insert into PERSON(PERSON_ID, NAME, AGE, CONTACT_NO, ADDRESS, PINCODE)
+values (10002, 'Quinton De Kock', 29, '2797156023', 'Cape Town', '400007');
+insert into PERSON(PERSON_ID, NAME, AGE, CONTACT_NO, ADDRESS, PINCODE)
+values (10003, 'Kieron Pollard', 31, '59297154591', 'Guyana', '600001');
+COMMIT;

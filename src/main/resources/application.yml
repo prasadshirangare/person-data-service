@@ -1,0 +1,23 @@
+server:
+  port: 9001
+spring:
+  jpa:
+    defer-datasource-initialization: true
+  sql:
+    init:
+      data-locations: classpath:data/person-data.sql
+  config:
+    activate:
+      on-profile: default
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  sql:
+    init:
+      data-locations: classpath:test-person-data.sql
+  jpa:
+    defer-datasource-initialization: true
